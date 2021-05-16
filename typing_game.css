@@ -1,0 +1,66 @@
+body{
+  font-family:'Courier New',arial;
+}
+
+.startpage{
+  text-align: center;
+  margin: 100px auto;
+}
+
+.container {
+  max-width: 1170px;
+  width:100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.line{
+  font-size: 20px;
+}
+
+.result{
+  text-align: center;
+  margin: 0 auto;
+  font-size: 32px;
+}
+
+.display{
+  padding: 100px 10px;
+  border: solid 2px #333;
+  margin: 10px 10px;
+}
+
+
+.letters{
+  font-size: 32px;
+}
+
+.timer{
+  font-size: 16px;
+}
+
+.select{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: #fff;
+  padding: 15px 32px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-bottom: 0.1875em solid #1B5E20;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+
+}
+
+.button:hover{
+	border-bottom-color: transparent;
+  transform: translateY(0.1875em);
+}

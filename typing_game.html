@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>typing</title>
+
+  <link rel="stylesheet" href="typing_game.css">
+  <audio id="sound_file" preload="auto">
+  <source src="wrong_sound.mp3" type="audio/mp3">
+  </audio>
+
+</head>
+
+<body>
+
+
+  <div class="container">
+
+
+    <div class="display">
+
+
+    <div class="letters">
+
+
+    <div id="question_area"></div>
+    <div id="typing_area"></div>
+
+    </div>
+
+    <div class="info">
+
+    </div>
+
+    <div class="score" id="score_area"></div>
+    <div class="pressstart" id="press_start"></div>
+    <div class="timer" id="timer_area"></div>
+    <div class="timer" id="countdown_area"></div>
+
+    </div>
+
+
+    </div>
+
+    <div class="select">
+
+    <form>
+      <span>Normal Mode</span><label><input type="radio" name="rb" id="radio1"></label>
+      <span>Random Mode</span><label><input type="radio" name="rb"id="radio2"></label>
+    </form>
+
+
+    <input type ="button" id="start_button" class="button" value="Start" onclick="start_game();">
+    </div>
+
+
+
+    <div class="result">
+      <p id="result_area"></p>
+      <div id="result_image"></div>
+    </div>
+
+
+
+  </div>
+
+<script src="typing_game.js"></script>
+</body>
+</html>
