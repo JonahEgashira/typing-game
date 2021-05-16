@@ -13,6 +13,11 @@ Startボタンを押したらゲームスタートをする
 
 //問題のリストは、https://randomwordgenerator.com/で生成しました
 
+/**
+ * author: Jonah Egashira
+ * created: 2019/07
+ */
+
 var question_list =
 ["JONAH",
 "USE",
